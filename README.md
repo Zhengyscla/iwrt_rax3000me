@@ -11,6 +11,8 @@ https://github.com/Daniel-Hwang/RAX3000Me
 
 [下载](https://github.com/Zhengyscla/iwrt_rax3000me/releases/download/rax3000me/rax3000me_immortwrt.zip)刷机文件 `rax3000me_immortwrt.zip` 并解压。
 
+> 文件名有误，实际上正确的名称是ImmortalWrt
+
 ## 开始操作
 
 **1. 打开Telnet**
@@ -117,13 +119,13 @@ reboot # 重启查看奇迹
 
 进入Uboot后选择选择压缩包内的 `RAX3000Me-initramfs-recovery.itb` 文件刷写等待重启
 
-路由器重启完毕，电脑获取IP后，浏览器输入192.168.1.1即可进入immortwrt。
+路由器重启完毕，电脑获取IP后，浏览器输入192.168.1.1即可进入immortalwrt。
 
 但是还没有结束，你会发现提示这是临时界面
 
-**4. 完整刷入immortwrt**
+**4. 完整刷入immortalwrt**
 
-在系统-->备份与升级-->刷写固件里刷写 [RAX3000Me-yyMMdd-squashfs-sysupgrade.itb (点此下载，实时更新)](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me) 固件
+在系统-->备份与升级-->刷写固件里刷写 [RAX3000Me-yyMMdd-squashfs-sysupgrade.itb (点此下载，来自QiYueYiya的实时更新)](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/RAX3000Me) 固件
 
 更新后，路由器的后台地址变为192.168.5.1
 
